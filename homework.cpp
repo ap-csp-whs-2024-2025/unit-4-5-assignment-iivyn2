@@ -7,9 +7,26 @@ void displayList(std::vector<T> const &v);
 
 int main()
 {
-    // You can follow along with any code in class here
+    // task 1
+std::vector<int> jennys = {8,6,7,5,3,0,9};
+std::vector<double> foo = {3.14,2.5,4.3,1.3,6.7};
+std::vector<std::string> bar = {"hello", "darkness", "my", "old", "friend"};
 
-    
+// task 2
+std::cout << jennys[0];
+std::cout << jennys[2];
+std::cout << jennys[4];
+
+std::cout << foo[0];
+std::cout << foo[2];
+std::cout << foo[4];
+
+std::cout << bar[0];
+std::cout << bar[2];
+std::cout << bar[4] << std::endl;
+
+// task 3 
+
     return 0;
 }
 
